@@ -1,0 +1,43 @@
+PODS:
+  - FBSDKCoreKit (6.3.0):
+    - FBSDKCoreKit/Basics (= 6.3.0)
+    - FBSDKCoreKit/Core (= 6.3.0)
+  - FBSDKCoreKit/Basics (6.3.0)
+  - FBSDKCoreKit/Core (6.3.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (6.3.0):
+    - FBSDKLoginKit/Login (= 6.3.0)
+  - FBSDKLoginKit/Login (6.3.0):
+    - FBSDKCoreKit (~> 6.3.0)
+  - FBSDKShareKit (6.3.0):
+    - FBSDKShareKit/Share (= 6.3.0)
+  - FBSDKShareKit/Share (6.3.0):
+    - FBSDKCoreKit (~> 6.3.0)
+  - LGSideMenuController (2.1.1)
+  - SwiftLint (0.39.2)
+
+DEPENDENCIES:
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - LGSideMenuController
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - LGSideMenuController
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  FBSDKCoreKit: 5d55c8f3007c9c49b793617b9102e46355fc7e17
+  FBSDKLoginKit: d46aa04d9bb9990a4deb6441736fae24a8c94496
+  FBSDKShareKit: cbd309f29d00e596bc28319724a7519940e804fa
+  LGSideMenuController: ae40c80983ab8b8801c7cef0a6804d43aaa72d45
+  SwiftLint: 22ccbbe3b8008684be5955693bab135e0ed6a447
+
+PODFILE CHECKSUM: 4e74bcef079b82c4967be7a18a5f861d6014fb04
+
+COCOAPODS: 1.9.1
